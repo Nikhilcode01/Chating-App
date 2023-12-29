@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OnlyChat</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" href="./images/onlychat.png" />
+  </head>
+  <body>
+    <div class="App">
+      <!-- left Box -->
+
+      <div class="Left_box">
+        <div class="app_head">
+          <div class="name">OnlyChat</div>
+          <div class="app_head_icon">
+            <img class="add_icon" src="./images/add.png" />
+            <img class="menu_icon" src="./images/dots.png" />
+          </div>
+        </div>
+        <div class="search_box">
+          <input type="text" class="search_bar" placeholder="Search Here.." />
+          <img src="./images/Search.png" class="search_bar_icon" />
+        </div>
+        <div class="quick_option_bar">
+          <img src="./images/history.png" class="quick_options" />
+          <img src="./images/people.png" class="quick_options" />
+          <img src="./images/contact.png" class="quick_options" />
+          <img src="./images/gallery.png" class="quick_options" />
+        </div>
+        <div class="people_box">
+          <div class="dummy_user">
+            <img src="./images/User (1).png" class="user" />
+            <div class="user_info">
+              <h3 class="user_name" id="sender_name">James</h3>
+              <h5 class="user_title">
+                I am available to chat any time.
+              </h5>
+            </div>
+          </div>
+          <div class="dummy_user">
+            <img src="./images/User (2).png" class="user" />
+            <div class="user_info">
+              <h3 class="user_name" id="resever_name">Peter</h3>
+              <h5 class="user_title">Life is soo Dark I want light.</h5>
+            </div>
+          </div>
+          <div class="dummy_user">
+            <img src="./images/User (3).png" class="user" />
+            <div class="user_info">
+              <h3 class="user_name">Sophia</h3>
+              <h5 class="user_title">I love my cute kitty cat.</h5>
+            </div>
+          </div>
+          <div class="dummy_user">
+            <img src="./images/User (4).png" class="user" />
+            <div class="user_info">
+              <h3 class="user_name">Henry</h3>
+              <h5 class="user_title">I am rider and traveler.</h5>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">
+          Copyright &copy; 2023 Nikhil Yadav India,Inc.All rights reserved.
+        </p>
+      </div>
+
+      <!-- Right Box -->
+
+      <div class="Right_box">
+        <div class="chat_user_name_box">
+          <div class="chat_user_name" id="user_name_to_chat">
+            Welcome to OnlyChat
+          </div>
+
+          <div class="calling_box">
+            <img src="./images/call.png" class="call_user" />
+            <img src="./images/video-call.png" class="video_call_user" />
+          </div>
+        </div>
+
+        <div class="chat_box">
+          <div class="chats" id="chats">
+
+          </div>
+        </div>
+
+        <div class="typing_box">
+          <input
+            type="text"
+            class="typing_bar"
+            id="typing_bar"
+            name=" "
+            placeholder="Type Chat.."
+          />
+          <input type="button" value="send" id="btn" class="send_btn" />
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="js/client.js"></script>
+  </body>
+</html>
