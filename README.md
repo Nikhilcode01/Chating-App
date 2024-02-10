@@ -12,7 +12,7 @@ between clients and the server.
 (5) Message History: Users can view past messages in the chat history.<br>
 (6) Notifications: Users receive notifications for new messages, even if the application is not in focus.<br>
 
-<h3>Architecture:</h3><br>
+<h3>Architecture:</h3>
 <h4>Frontend (React.js):</h4>
 
 -> Components: The application is divided into reusable components such as ChatWindow, MessageList, MessageInput, UserList, etc.<br>
@@ -26,7 +26,7 @@ between clients and the server.
 -> Database Integration: Interacts with a database (e.g., MongoDB, MySQL) to store user information, chat messages, and other relevant data.<br>
 -> API Endpoints: Provides RESTful APIs for user authentication, message retrieval, user presence, etc.<br>
 
-<h3>Workflow:</h3><br>
+<h3>Workflow:</h3>
 <h4>(1) User Authentication:</h4>
 
 -> Users sign up or log in using their credentials.<br>
