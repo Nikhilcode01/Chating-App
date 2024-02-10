@@ -12,14 +12,14 @@ between clients and the server.
 (5) Message History: Users can view past messages in the chat history.<br>
 (6) Notifications: Users receive notifications for new messages, even if the application is not in focus.<br>
 
-Architecture:<br>
-<h3>Frontend (React.js):</h3>
+<h3>Architecture:</h3><br>
+<h4>Frontend (React.js):</h4>
 
 -> Components: The application is divided into reusable components such as ChatWindow, MessageList, MessageInput, UserList, etc.<br>
 -> State Management: React state or a state management library like Redux is used to manage application state, including user authentication, chat messages, user list, etc.<br>
 -> WebSocket Integration: Socket.IO client library is integrated into the React components to establish a WebSocket connection with the server for real-time communication.<br>
 
-<h3>Backend (Node.js with Socket.IO):</h3>
+<h4>Backend (Node.js with Socket.IO):</h4>
 
 -> Authentication: Handles user authentication and authorization using techniques like JWT (JSON Web Tokens).<br>
 -> WebSocket Server: Utilizes Socket.IO library to handle WebSocket connections from clients and manage real-time messaging.<br>
