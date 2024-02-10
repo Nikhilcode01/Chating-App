@@ -4,7 +4,7 @@ between clients and the server.
 
 Key Features:
 
-(1) User Authentication: Users can sign up or log in to the application using their credentials.
+(1) User Authentication: Users can sign up or log in to the application using their credentials.<br>
 (2) Real-time Messaging: Users can send and receive messages in real-time without needing to refresh the page.
 (3) User Presence: Users can see the online status of other users (online, offline).
 (4) Typing Indicator: When a user starts typing, other users in the chat can see an indicator showing that the user is typing.
