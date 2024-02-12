@@ -1,4 +1,7 @@
 <h1><i>Chat App</i></h1>
+
+<img src="https://nikhilcode01.netlify.app/assets/img/portfolio/project%20(1).jpeg" />
+
 The chat application allows users to communicate with each other in real-time. It utilizes React.js for 
 the frontend to create a dynamic user interface, and Socket.IO for enabling real-time bidirectional communication 
 between clients and the server.
@@ -61,5 +64,3 @@ between clients and the server.
 This chat application provides a seamless real-time communication experience for users, thanks to the combination of React.js 
 for the frontend and Socket.IO for the backend. Users can communicate instantly, see the online status of others, and receive 
 notifications for new messages, making it a robust solution for modern chat applications.
-
-<img src="https://nikhilcode01.netlify.app/assets/img/portfolio/project%20(1).jpeg" />
