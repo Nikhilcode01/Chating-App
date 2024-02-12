@@ -62,9 +62,4 @@ This chat application provides a seamless real-time communication experience for
 for the frontend and Socket.IO for the backend. Users can communicate instantly, see the online status of others, and receive 
 notifications for new messages, making it a robust solution for modern chat applications.
 
-
-
-
-
-
-
+<img src="https://nikhilcode01.netlify.app/assets/img/portfolio/project%20(1).jpeg" />
