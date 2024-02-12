@@ -1,4 +1,4 @@
-<h1><i>Chat App</i></h1>
+<h1>Chat App</h1>
 
 <img src="https://nikhilcode01.netlify.app/assets/img/portfolio/project%20(1).jpeg" />
 
