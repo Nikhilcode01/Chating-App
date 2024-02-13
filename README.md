@@ -9,11 +9,11 @@ between clients and the server.
 <h3>Key Features:</h3>
 
 <ol>
-<li><b> User Authentication:</b> Users can sign up or log in to the application using their credentials.</li><br>
-<li><b> Real-time Messaging:</b> Users can send and receive messages in real-time without needing to refresh the page.</li><br>
-<li><b> User Presence:</b> Users can see the online status of other users (online, offline).</li><br>
-<li><b> Typing Indicator:</b> When a user starts typing, other users in the chat can see an indicator showing that the user is typing.</li><br>
-<li><b> Message History:</b> Users can view past messages in the chat history.</li><br>
+<li><b> User Authentication:</b> Users can sign up or log in to the application using their credentials.</li>
+<li><b> Real-time Messaging:</b> Users can send and receive messages in real-time without needing to refresh the page.</li>
+<li><b> User Presence:</b> Users can see the online status of other users (online, offline).</li>
+<li><b> Typing Indicator:</b> When a user starts typing, other users in the chat can see an indicator showing that the user is typing.</li>
+<li><b> Message History:</b> Users can view past messages in the chat history.</li>
 <li><b> Notifications:</b> Users receive notifications for new messages, even if the application is not in focus.</li>
 </ol>
 
