@@ -18,7 +18,8 @@ between clients and the server.
 </ol>
 
 <h3>Architecture:</h3>
-<h4>Frontend (React.js):</h4>
+<ol>
+<li><h4>Frontend (React.js):</h4></li>
 
 <ul>
 <li><b> Components:</b> The application is divided into reusable components such as ChatWindow, MessageList, MessageInput, UserList, etc.</li>
@@ -26,13 +27,15 @@ between clients and the server.
 <li><b> WebSocket Integration:</b> Socket.IO client library is integrated into the React components to establish a WebSocket connection with the server for real-time communication.</li>
 </ul>
 
-<h4>Backend (Node.js with Socket.IO):</h4>
+<li><h4>Backend (Node.js with Socket.IO):</h4></li>
+
 <ul>
 <li><b> Authentication:</b> Handles user authentication and authorization using techniques like JWT (JSON Web Tokens).</li>
 <li><b> WebSocket Server:</b> Utilizes Socket.IO library to handle WebSocket connections from clients and manage real-time messaging.</li>
 <li><b> Database Integration:</b> Interacts with a database (e.g., MongoDB, MySQL) to store user information, chat messages, and other relevant data.</li>
 <li><b> API Endpoints:</b> Provides RESTful APIs for user authentication, message retrieval, user presence, etc.</li>
 </ul>
+</ol>
 
 <h3>Workflow:</h3>
 <ol>
@@ -66,6 +69,7 @@ between clients and the server.
 <li> Clients receive notifications for new messages via browser notifications or in-app notifications.</li>
 <li> Notifications are triggered when a new message arrives, regardless of whether the application is active or not.</li>
 </ul>
+</ol>
 
 <h3>Deployment:</h3>
 
